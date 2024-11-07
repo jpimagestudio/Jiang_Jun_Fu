@@ -1,777 +1,904 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20954" appversion="7.1.5" start="node10" hassounds="1">
+<tour start="node10" appversion="7.1.5" hassounds="1" apprev="20954">
   <panorama id="node10">
-    <input levelingroll="0" width="3657" levelingpitch="0" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3657" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3657" height="3657" predecode="0"/>
-      <level preload="0" width="1828" height="1828" predecode="0"/>
-      <level preload="0" width="914" height="914" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3657" levelingroll="0" width="3657" levelbias="0.400">
+      <level height="3657" predecode="0" preload="0" width="3657"/>
+      <level height="1828" predecode="0" preload="0" width="1828"/>
+      <level height="914" predecode="0" preload="0" width="914"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="80.7658">
-      <start fov="100" pan="-27.88" tilt="1.12" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="80.7658" fovmode="2">
+      <start pan="-27.88" fov="100" tilt="1.12" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98066144" description="" title="站點 A 入口" customnodeid="" heading="80.7658" nodeid="node10" author="James Lee" comment="" longitude="121.61282085" datetime="2024/10/14 11:18" info="" tags="PTGuioutput">
-      <mapcoords x="0.531464" y_floorplan_percent="36.3943" y="-0.593262" x_floorplan_percent="29.3961" mapid="FloorPlan01"/>
+    <userdata latitude="23.98066144" info="" comment="" nodeid="node10" datetime="2024/10/14 11:18" longitude="121.61282085" description="" author="James Lee" tags="PTGuioutput" heading="80.7658" customnodeid="" title="站點 A 入口" source="" copyright="jp-image.space">
+      <mapcoords x="0.531464" y="-0.593262" y_floorplan_percent="36.3943" mapid="FloorPlan01" x_floorplan_percent="29.3961"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 Ｂ園區導覽地圖" target="$fwd" id="Point01" distance="11.205" pan="-28.222" url="{node11}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-28.222" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｂ園區導覽地圖" url="{node11}" distance="11.205"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelingroll="0" width="3658" levelingpitch="0" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3658" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3658" height="3658" predecode="0"/>
-      <level preload="0" width="1829" height="1829" predecode="0"/>
-      <level preload="0" width="914" height="914" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3658" levelingroll="0" width="3658" levelbias="0.400">
+      <level height="3658" predecode="0" preload="0" width="3658"/>
+      <level height="1829" predecode="0" preload="0" width="1829"/>
+      <level height="914" predecode="0" preload="0" width="914"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-15.2426">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-15.2426" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98067193" description="" title="站點 Ｂ園區導覽地圖" customnodeid="" heading="-15.2426" nodeid="node11" author="James Lee" comment="" longitude="121.61293054" datetime="2024/10/14 12:02" info="" tags="PTGuioutput">
-      <mapcoords x="0.650253" y_floorplan_percent="36.5206" y="-0.595322" x_floorplan_percent="35.9666" mapid="FloorPlan01"/>
+    <userdata latitude="23.98067193" info="" comment="" nodeid="node11" datetime="2024/10/14 12:02" longitude="121.61293054" description="" author="James Lee" tags="PTGuioutput" heading="-15.2426" customnodeid="" title="站點 Ｂ園區導覽地圖" source="" copyright="jp-image.space">
+      <mapcoords x="0.650253" y="-0.595322" y_floorplan_percent="36.5206" mapid="FloorPlan01" x_floorplan_percent="35.9666"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.68" title="站點 C OOA 烘焙" target="$fwd" id="Point02" distance="19.9666" pan="-110.3" url="{node12}"/>
-      <hotspot skinid="ht_node" description="" tilt="4.34" title="站點 E Doga | 定置漁場" target="$fwd" id="Point03" distance="10.9069" pan="-230.69" url="{node14}"/>
-      <hotspot skinid="ht_node" description="" tilt="1.17" title="站點 J" target="$fwd" id="Point04" distance="39.1671" pan="-187.2" url="{node19}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 A 入口" target="$fwd" id="Point01" distance="11.205" pan="55.7696" url="{node10}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" pan="-110.3" skinid="ht_node" tilt="0.68" description="" target="$fwd" title="站點 C OOA 烘焙" url="{node12}" distance="19.9666"/>
+      <hotspot id="Point03" pan="-230.69" skinid="ht_node" tilt="4.34" description="" target="$fwd" title="站點 E Doga | 定置漁場" url="{node14}" distance="10.9069"/>
+      <hotspot id="Point01" pan="55.7696" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 A 入口" url="{node10}" distance="11.205"/>
+      <hotspot id="Point05" pan="-177.239" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｑ" url="{node26}" distance="25.3728"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelingroll="0" width="3660" levelingpitch="0" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3660" height="3660" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3660" levelingroll="0" width="3660" levelbias="0.400">
+      <level height="3660" predecode="0" preload="0" width="3660"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="6.87211">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="6.87211" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98065149" description="" title="站點 C OOA 烘焙" customnodeid="" heading="6.87211" nodeid="node12" author="James Lee" comment="" longitude="121.61312579" datetime="2024/10/14 10:46" info="" tags="PTGuioutput">
-      <mapcoords x="0.847321" y_floorplan_percent="34.1196" y="-0.556183" x_floorplan_percent="46.8667" mapid="FloorPlan01"/>
+    <userdata latitude="23.98065149" info="" comment="" nodeid="node12" datetime="2024/10/14 10:46" longitude="121.61312579" description="" author="James Lee" tags="PTGuioutput" heading="6.87211" customnodeid="" title="站點 C OOA 烘焙" source="" copyright="jp-image.space">
+      <mapcoords x="0.847321" y="-0.556183" y_floorplan_percent="34.1196" mapid="FloorPlan01" x_floorplan_percent="46.8667"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="2.08" title="站點 D 牆面介紹" target="$fwd" id="Point01" distance="17.3572" pan="-115.35" url="{node13}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.36" title="站點 F 台灣地方創生基金會" target="$fwd" id="Point02" distance="15.022" pan="-166.06" url="{node15}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 Ｂ園區導覽地圖" target="$fwd" id="Point03" distance="19.9666" pan="90.3358" url="{node11}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-115.35" skinid="ht_node" tilt="2.08" description="" target="$fwd" title="站點 D 牆面介紹" url="{node13}" distance="17.3572"/>
+      <hotspot id="Point02" pan="-166.06" skinid="ht_node" tilt="-0.36" description="" target="$fwd" title="站點 F 台灣地方創生基金會" url="{node15}" distance="15.022"/>
+      <hotspot id="Point03" pan="90.3358" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｂ園區導覽地圖" url="{node11}" distance="19.9666"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelingroll="0" width="3656" levelingpitch="0" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3656" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3656" height="3656" predecode="0"/>
-      <level preload="0" width="1828" height="1828" predecode="0"/>
-      <level preload="0" width="914" height="914" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3656" levelingroll="0" width="3656" levelbias="0.400">
+      <level height="3656" predecode="0" preload="0" width="3656"/>
+      <level height="1828" predecode="0" preload="0" width="1828"/>
+      <level height="914" predecode="0" preload="0" width="914"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="41.5523">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="41.5523" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98056843" description="" title="站點 D 牆面介紹" customnodeid="" heading="41.5523" nodeid="node13" author="James Lee" comment="" longitude="121.61327044" datetime="2024/10/14 10:54" info="" tags="PTGuioutput">
-      <mapcoords x="1.01624" y_floorplan_percent="36.7313" y="-0.598755" x_floorplan_percent="56.2096" mapid="FloorPlan01"/>
+    <userdata latitude="23.98056843" info="" comment="" nodeid="node13" datetime="2024/10/14 10:54" longitude="121.61327044" description="" author="James Lee" tags="PTGuioutput" heading="41.5523" customnodeid="" title="站點 D 牆面介紹" source="" copyright="jp-image.space">
+      <mapcoords x="1.01624" y="-0.598755" y_floorplan_percent="36.7313" mapid="FloorPlan01" x_floorplan_percent="56.2096"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="2.83" title="站點 C OOA 烘焙" target="$fwd" id="Point02" distance="17.3572" pan="-260.77" url="{node12}"/>
-      <hotspot skinid="ht_node" description="" tilt="1.65" title="站點 L" target="$fwd" id="Point01" distance="35.391" pan="-149.67" url="{node21}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" pan="-260.77" skinid="ht_node" tilt="2.83" description="" target="$fwd" title="站點 C OOA 烘焙" url="{node12}" distance="17.3572"/>
+      <hotspot id="Point01" pan="-149.67" skinid="ht_node" tilt="1.65" description="" target="$fwd" title="站點 L" url="{node21}" distance="35.391"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelingroll="0" width="3658" levelingpitch="0" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3658" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3658" height="3658" predecode="0"/>
-      <level preload="0" width="1829" height="1829" predecode="0"/>
-      <level preload="0" width="914" height="914" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3658" levelingroll="0" width="3658" levelbias="0.400">
+      <level height="3658" predecode="0" preload="0" width="3658"/>
+      <level height="1829" predecode="0" preload="0" width="1829"/>
+      <level height="914" predecode="0" preload="0" width="914"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-70.4509">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-70.4509" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98059210" description="" title="站點 E Doga | 定置漁場" customnodeid="" heading="-70.4509" nodeid="node14" author="James Lee" comment="" longitude="121.61286816" datetime="2024/10/14 10:41" info="" tags="PTGuioutput">
-      <mapcoords x="0.617981" y_floorplan_percent="42.9655" y="-0.700378" x_floorplan_percent="34.1815" mapid="FloorPlan01"/>
+    <userdata latitude="23.98059210" info="" comment="" nodeid="node14" datetime="2024/10/14 10:41" longitude="121.61286816" description="" author="James Lee" tags="PTGuioutput" heading="-70.4509" customnodeid="" title="站點 E Doga | 定置漁場" source="" copyright="jp-image.space">
+      <mapcoords x="0.617981" y="-0.700378" y_floorplan_percent="42.9655" mapid="FloorPlan01" x_floorplan_percent="34.1815"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.98" title="站點 Ｂ園區導覽地圖" target="$fwd" id="Point01" distance="10.9069" pan="-104.76" url="{node11}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-104.76" skinid="ht_node" tilt="0.98" description="" target="$fwd" title="站點 Ｂ園區導覽地圖" url="{node11}" distance="10.9069"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node15">
-    <input levelingroll="0" width="3661" levelingpitch="0" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3661" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3661" height="3661" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3661" levelingroll="0" width="3661" levelbias="0.400">
+      <level height="3661" predecode="0" preload="0" width="3661"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="157.237">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="157.237" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98051692" description="" title="站點 F 台灣地方創生基金會" customnodeid="" heading="157.237" nodeid="node15" author="James Lee" comment="" longitude="121.61313883" datetime="2024/10/14 10:50" info="" tags="PTGuioutput">
-      <mapcoords x="0.906372" y_floorplan_percent="42.6285" y="-0.694885" x_floorplan_percent="50.1329" mapid="FloorPlan01"/>
+    <userdata latitude="23.98051692" info="" comment="" nodeid="node15" datetime="2024/10/14 10:50" longitude="121.61313883" description="" author="James Lee" tags="PTGuioutput" heading="157.237" customnodeid="" title="站點 F 台灣地方創生基金會" source="" copyright="jp-image.space">
+      <mapcoords x="0.906372" y="-0.694885" y_floorplan_percent="42.6285" mapid="FloorPlan01" x_floorplan_percent="50.1329"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.07" title="站點 C OOA 烘焙" target="$fwd" id="Point01" distance="15.022" pan="-199.56" url="{node12}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-199.56" skinid="ht_node" tilt="0.07" description="" target="$fwd" title="站點 C OOA 烘焙" url="{node12}" distance="15.022"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node16">
-    <input levelingroll="0" width="3660" levelingpitch="0" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3660" height="3660" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3660" levelingroll="0" width="3660" levelbias="0.400">
+      <level height="3660" predecode="0" preload="0" width="3660"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-124.209">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-124.209" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98041674" description="" title="站點 G 家咖哩" customnodeid="" heading="-124.209" nodeid="node16" author="James Lee" comment="" longitude="121.61266559" datetime="2024/10/14 10:34" info="" tags="PTGuioutput">
-      <mapcoords x="0.481339" y_floorplan_percent="58.2982" y="-0.950317" x_floorplan_percent="26.6236" mapid="FloorPlan01"/>
+    <userdata latitude="23.98041674" info="" comment="" nodeid="node16" datetime="2024/10/14 10:34" longitude="121.61266559" description="" author="James Lee" tags="PTGuioutput" heading="-124.209" customnodeid="" title="站點 G 家咖哩" source="" copyright="jp-image.space">
+      <mapcoords x="0.481339" y="-0.950317" y_floorplan_percent="58.2982" mapid="FloorPlan01" x_floorplan_percent="26.6236"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點Ｑ 防空洞" target="$fwd" id="Point01" distance="7.14238" pan="-88.6429" url="{node1}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 H 炸彈檸檬茶" target="$fwd" id="Point02" distance="10.5386" pan="-232.95" url="{node17}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-88.6429" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點Ｑ 防空洞" url="{node1}" distance="7.14238"/>
+      <hotspot id="Point02" pan="-232.95" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 H 炸彈檸檬茶" url="{node17}" distance="10.5386"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node17">
-    <input levelingroll="0" width="3663" levelingpitch="0" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3663" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3663" height="3663" predecode="0"/>
-      <level preload="0" width="1831" height="1831" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3663" levelingroll="0" width="3663" levelbias="0.400">
+      <level height="3663" predecode="0" preload="0" width="3663"/>
+      <level height="1831" predecode="0" preload="0" width="1831"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-156.751">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-156.751" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98038629" description="" title="站點 H 炸彈檸檬茶" customnodeid="" heading="-156.751" nodeid="node17" author="James Lee" comment="" longitude="121.61276382" datetime="2024/10/14 10:30" info="" tags="PTGuioutput">
-      <mapcoords x="0.587769" y_floorplan_percent="58.3404" y="-0.951004" x_floorplan_percent="32.5104" mapid="FloorPlan01"/>
+    <userdata latitude="23.98038629" info="" comment="" nodeid="node17" datetime="2024/10/14 10:30" longitude="121.61276382" description="" author="James Lee" tags="PTGuioutput" heading="-156.751" customnodeid="" title="站點 H 炸彈檸檬茶" source="" copyright="jp-image.space">
+      <mapcoords x="0.587769" y="-0.951004" y_floorplan_percent="58.3404" mapid="FloorPlan01" x_floorplan_percent="32.5104"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.63" title="站點 G 家咖哩" target="$fwd" id="Point01" distance="10.5386" pan="-84.6007" url="{node16}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 I 貓丁目冰淇淋" target="$fwd" id="Point02" distance="11.7711" pan="-263.423" url="{node18}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.84" title="站點 Ｏ" target="$fwd" id="Point03" distance="24.6325" pan="-354.69" url="{node24}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-84.6007" skinid="ht_node" tilt="-0.63" description="" target="$fwd" title="站點 G 家咖哩" url="{node16}" distance="10.5386"/>
+      <hotspot id="Point02" pan="-263.423" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 I 貓丁目冰淇淋" url="{node18}" distance="11.7711"/>
+      <hotspot id="Point03" pan="-354.69" skinid="ht_node" tilt="-0.84" description="" target="$fwd" title="站點 Ｏ" url="{node24}" distance="24.6325"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node18">
-    <input levelingroll="0" width="3660" levelingpitch="0" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3660" height="3660" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3660" levelingroll="0" width="3660" levelbias="0.400">
+      <level height="3660" predecode="0" preload="0" width="3660"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-157.924">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-157.924" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98035592" description="" title="站點 I 貓丁目冰淇淋" customnodeid="" heading="-157.924" nodeid="node18" author="James Lee" comment="" longitude="121.61287481" datetime="2024/10/14 10:23" info="" tags="PTGuioutput">
-      <mapcoords x="0.705872" y_floorplan_percent="58.214" y="-0.948944" x_floorplan_percent="39.0429" mapid="FloorPlan01"/>
+    <userdata latitude="23.98035592" info="" comment="" nodeid="node18" datetime="2024/10/14 10:23" longitude="121.61287481" description="" author="James Lee" tags="PTGuioutput" heading="-157.924" customnodeid="" title="站點 I 貓丁目冰淇淋" source="" copyright="jp-image.space">
+      <mapcoords x="0.705872" y="-0.948944" y_floorplan_percent="58.214" mapid="FloorPlan01" x_floorplan_percent="39.0429"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 H 炸彈檸檬茶" target="$fwd" id="Point01" distance="11.7711" pan="-84.5958" url="{node17}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.25" title="站點 J" target="$fwd" id="Point02" distance="11.7678" pan="-265.82" url="{node19}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 R 貓丁目冰淇淋" target="$fwd" id="Point03" distance="8.51196" pan="-32.4266" url="{node2}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-84.5958" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 H 炸彈檸檬茶" url="{node17}" distance="11.7711"/>
+      <hotspot id="Point02" pan="-265.82" skinid="ht_node" tilt="0.25" description="" target="$fwd" title="站點 J" url="{node19}" distance="11.7678"/>
+      <hotspot id="Point03" pan="-32.4266" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 R 貓丁目冰淇淋" url="{node2}" distance="8.51196"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node19">
-    <input levelingroll="0" width="3661" levelingpitch="0" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3661" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3661" height="3661" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3661" levelingroll="0" width="3661" levelbias="0.400">
+      <level height="3661" predecode="0" preload="0" width="3661"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="192.456">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="192.456" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98032322" description="" title="站點 J" customnodeid="" heading="192.456" nodeid="node19" author="James Lee" comment="" longitude="121.61298497" datetime="2024/10/14 10:18" info="" tags="PTGuioutput">
-      <mapcoords x="0.823975" y_floorplan_percent="58.214" y="-0.948944" x_floorplan_percent="45.5754" mapid="FloorPlan01"/>
+    <userdata latitude="23.98032322" info="" comment="" nodeid="node19" datetime="2024/10/14 10:18" longitude="121.61298497" description="" author="James Lee" tags="PTGuioutput" heading="192.456" customnodeid="" title="站點 J" source="" copyright="jp-image.space">
+      <mapcoords x="0.823975" y="-0.948944" y_floorplan_percent="58.214" mapid="FloorPlan01" x_floorplan_percent="45.5754"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.49" title="站點 K 花凜和服屋 ｜探索の味" target="$fwd" id="Point01" distance="11.3579" pan="-275.2" url="{node20}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.21" title="站點 I 貓丁目冰淇淋" target="$fwd" id="Point02" distance="11.7678" pan="-95.1" url="{node18}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 Ｐ" target="$fwd" id="Point03" distance="25.1796" pan="355.079" url="{node25}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" pan="-95.1" skinid="ht_node" tilt="0.21" description="" target="$fwd" title="站點 I 貓丁目冰淇淋" url="{node18}" distance="11.7678"/>
+      <hotspot id="Point03" pan="355.079" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｐ" url="{node25}" distance="25.1796"/>
+      <hotspot id="Point04" pan="183.483" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｑ" url="{node26}" distance="14.8258"/>
+      <hotspot id="Point01" pan="84.4526" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 K 花凜和服屋 ｜喜歡采風" url="{node20}" distance="11.3579"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node20">
-    <input levelingroll="0" width="3661" levelingpitch="0" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3661" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3661" height="3661" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3511" levelingroll="0" width="3511" levelbias="0.400">
+      <level height="3511" predecode="0" preload="0" width="3511"/>
+      <level height="1755" predecode="0" preload="0" width="1755"/>
+      <level height="877" predecode="0" preload="0" width="877"/>
+      <level height="438" predecode="1" preload="1" width="438"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-185.565">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-119.592" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98029165" description="" title="站點 K 花凜和服屋 ｜探索の味" customnodeid="" heading="-185.565" nodeid="node20" author="James Lee" comment="" longitude="121.61309129" datetime="2024/10/14 10:12" info="" tags="PTGuioutput">
-      <mapcoords x="0.937958" y_floorplan_percent="58.214" y="-0.948944" x_floorplan_percent="51.88" mapid="FloorPlan01"/>
+    <userdata latitude="23.98029165" info="" comment="" nodeid="node20" datetime="2024/10/14 10:12" longitude="121.61309129" description="" author="James Lee" tags="PTGuioutput" heading="-119.592" customnodeid="" title="站點 K 花凜和服屋 ｜喜歡采風" source="" copyright="jp-image.space">
+      <mapcoords x="0.937958" y="-0.948944" y_floorplan_percent="58.214" mapid="FloorPlan01" x_floorplan_percent="51.88"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.43" title="站點 L" target="$fwd" id="Point01" distance="11.7712" pan="-293.28" url="{node21}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.08" title="站點 J" target="$fwd" id="Point02" distance="11.3579" pan="-111.64" url="{node19}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" pan="-47.5954" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 J" url="{node19}" distance="11.3579"/>
+      <hotspot id="Point01" pan="-228.922" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 L" url="{node21}" distance="11.7712"/>
+      <hotspot id="Point03" pan="-282.443" skinid="ht_node" tilt="0" description="" target="$fwd" title="喜歡采風" url="{node28}" distance="8.2005"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node21">
-    <input levelingroll="0" width="3663" levelingpitch="0" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3663" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3663" height="3663" predecode="0"/>
-      <level preload="0" width="1831" height="1831" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3663" levelingroll="0" width="3663" levelbias="0.400">
+      <level height="3663" predecode="0" preload="0" width="3663"/>
+      <level height="1831" predecode="0" preload="0" width="1831"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="4.36978">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="1" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="4.36978" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98025661" description="" title="站點 L" customnodeid="" heading="4.36978" nodeid="node21" author="James Lee" comment="" longitude="121.61320062" datetime="2024/10/14 10:04" info="" tags="PTGuioutput">
-      <mapcoords x="1.05606" y_floorplan_percent="58.3825" y="-0.951691" x_floorplan_percent="58.4125" mapid="FloorPlan01"/>
+    <userdata latitude="23.98025661" info="" comment="" nodeid="node21" datetime="2024/10/14 10:04" longitude="121.61320062" description="" author="James Lee" tags="PTGuioutput" heading="4.36978" customnodeid="" title="站點 L" source="" copyright="jp-image.space">
+      <mapcoords x="1.05606" y="-0.951691" y_floorplan_percent="58.3825" mapid="FloorPlan01" x_floorplan_percent="58.4125"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.43" title="站點 M 山海百貨" target="$fwd" id="Point01" distance="12.7274" pan="-103.41" url="{node22}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.51" title="站點 K 花凜和服屋 ｜探索の味" target="$fwd" id="Point02" distance="11.7712" pan="-283.36" url="{node20}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.06" title="站點Ｎ" target="$fwd" id="Point03" distance="24.771" pan="-193.32" url="{node23}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.79" title="站點 D 牆面介紹" target="$fwd" id="Point04" distance="35.391" pan="-6.22" url="{node13}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-103.41" skinid="ht_node" tilt="0.43" description="" target="$fwd" title="站點 M 山海百貨" url="{node22}" distance="12.7274"/>
+      <hotspot id="Point03" pan="-193.32" skinid="ht_node" tilt="0.06" description="" target="$fwd" title="站點Ｎ" url="{node23}" distance="24.771"/>
+      <hotspot id="Point04" pan="-6.22" skinid="ht_node" tilt="0.79" description="" target="$fwd" title="站點 D 牆面介紹" url="{node13}" distance="35.391"/>
+      <hotspot id="Point02" pan="75.0402" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 K 花凜和服屋 ｜喜歡采風" url="{node20}" distance="11.7712"/>
+      <hotspot id="Point05" pan="118.758" skinid="ht_node" tilt="0" description="" target="$fwd" title="喜歡采風" url="{node28}" distance="9.54097"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node22">
-    <input levelingroll="0" width="3662" levelingpitch="0" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3662" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3662" height="3662" predecode="0"/>
-      <level preload="0" width="1831" height="1831" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3662" levelingroll="0" width="3662" levelbias="0.400">
+      <level height="3662" predecode="0" preload="0" width="3662"/>
+      <level height="1831" predecode="0" preload="0" width="1831"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="230.369">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="230.369" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98022241" description="" title="站點 M 山海百貨" customnodeid="" heading="230.369" nodeid="node22" author="James Lee" comment="" longitude="121.61332017" datetime="2024/10/14 10:04" info="" tags="PTGuioutput">
-      <mapcoords x="1.18378" y_floorplan_percent="58.2982" y="-0.950317" x_floorplan_percent="65.4766" mapid="FloorPlan01"/>
+    <userdata latitude="23.98022241" info="" comment="" nodeid="node22" datetime="2024/10/14 10:04" longitude="121.61332017" description="" author="James Lee" tags="PTGuioutput" heading="230.369" customnodeid="" title="站點 M 山海百貨" source="" copyright="jp-image.space">
+      <mapcoords x="1.18378" y="-0.950317" y_floorplan_percent="58.2982" mapid="FloorPlan01" x_floorplan_percent="65.4766"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.58" title="站點 L" target="$fwd" id="Point01" distance="12.7274" pan="-56.89" url="{node21}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.73" title="站點 S 山海百貨" target="$fwd" id="Point02" distance="10.5892" pan="-3.96" url="{node3}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-56.89" skinid="ht_node" tilt="0.58" description="" target="$fwd" title="站點 L" url="{node21}" distance="12.7274"/>
+      <hotspot id="Point02" pan="-3.96" skinid="ht_node" tilt="-0.73" description="" target="$fwd" title="站點 S 山海百貨" url="{node3}" distance="10.5892"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node23">
-    <input levelingroll="0" width="3660" levelingpitch="0" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3660" height="3660" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3660" levelingroll="0" width="3660" levelbias="0.400">
+      <level height="3660" predecode="0" preload="0" width="3660"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="143.865">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="143.865" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98004591" description="" title="站點Ｎ" customnodeid="" heading="143.865" nodeid="node23" author="James Lee" comment="" longitude="121.61312145" datetime="2024/10/14 11:06" info="" tags="PTGuioutput">
-      <mapcoords x="1.05194" y_floorplan_percent="73.631" y="-1.20026" x_floorplan_percent="58.1846" mapid="FloorPlan01"/>
+    <userdata latitude="23.98004591" info="" comment="" nodeid="node23" datetime="2024/10/14 11:06" longitude="121.61312145" description="" author="James Lee" tags="PTGuioutput" heading="143.865" customnodeid="" title="站點Ｎ" source="" copyright="jp-image.space">
+      <mapcoords x="1.05194" y="-1.20026" y_floorplan_percent="73.631" mapid="FloorPlan01" x_floorplan_percent="58.1846"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.26" title="站點 L" target="$fwd" id="Point01" distance="24.771" pan="-233.65" url="{node21}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.78" title="站點 X 小藍肥皂" target="$fwd" id="Point02" distance="7.88017" pan="-34.25" url="{node8}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 Ｐ" target="$fwd" id="Point03" distance="22.4428" pan="216.214" url="{node25}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-233.65" skinid="ht_node" tilt="0.26" description="" target="$fwd" title="站點 L" url="{node21}" distance="24.771"/>
+      <hotspot id="Point02" pan="-34.25" skinid="ht_node" tilt="-0.78" description="" target="$fwd" title="站點 X 小藍肥皂" url="{node8}" distance="7.88017"/>
+      <hotspot id="Point03" pan="216.214" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｐ" url="{node25}" distance="22.4428"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node24">
-    <input levelingroll="0" width="3660" levelingpitch="0" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3660" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3660" height="3660" predecode="0"/>
-      <level preload="0" width="1830" height="1830" predecode="0"/>
-      <level preload="0" width="915" height="915" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3660" levelingroll="0" width="3660" levelbias="0.400">
+      <level height="3660" predecode="0" preload="0" width="3660"/>
+      <level height="1830" predecode="0" preload="0" width="1830"/>
+      <level height="915" predecode="0" preload="0" width="915"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-79.754">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-79.754" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98017523" description="" title="站點 Ｏ" customnodeid="" heading="-79.754" nodeid="node24" author="James Lee" comment="" longitude="121.61269018" datetime="2024/10/14 11:01" info="" tags="PTGuioutput">
-      <mapcoords x="0.589142" y_floorplan_percent="73.5468" y="-1.19888" x_floorplan_percent="32.5864" mapid="FloorPlan01"/>
+    <userdata latitude="23.98017523" info="" comment="" nodeid="node24" datetime="2024/10/14 11:01" longitude="121.61269018" description="" author="James Lee" tags="PTGuioutput" heading="-79.754" customnodeid="" title="站點 Ｏ" source="" copyright="jp-image.space">
+      <mapcoords x="0.589142" y="-1.19888" y_floorplan_percent="73.5468" mapid="FloorPlan01" x_floorplan_percent="32.5864"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0.52" title="站點 H 炸彈檸檬茶" target="$fwd" id="Point01" distance="24.6325" pan="-96.95" url="{node17}"/>
-      <hotspot skinid="ht_node" description="" tilt="-0.59" title="站點 Ｐ" target="$fwd" id="Point02" distance="23.6741" pan="-188.11" url="{node25}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-96.95" skinid="ht_node" tilt="0.52" description="" target="$fwd" title="站點 H 炸彈檸檬茶" url="{node17}" distance="24.6325"/>
+      <hotspot id="Point02" pan="-188.11" skinid="ht_node" tilt="-0.59" description="" target="$fwd" title="站點 Ｐ" url="{node25}" distance="23.6741"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node25">
-    <input levelingroll="0" width="3659" levelingpitch="0" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3659" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3659" height="3659" predecode="0"/>
-      <level preload="0" width="1829" height="1829" predecode="0"/>
-      <level preload="0" width="914" height="914" predecode="0"/>
-      <level preload="1" width="457" height="457" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3659" levelingroll="0" width="3659" levelbias="0.400">
+      <level height="3659" predecode="0" preload="0" width="3659"/>
+      <level height="1829" predecode="0" preload="0" width="1829"/>
+      <level height="914" predecode="0" preload="0" width="914"/>
+      <level height="457" predecode="1" preload="1" width="457"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="151.619">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="151.619" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98010711" description="" title="站點 Ｐ" customnodeid="" heading="151.619" nodeid="node25" author="James Lee" comment="" longitude="121.61291095" datetime="2024/10/16 9:58" info="" tags="PTGuioutput">
-      <mapcoords x="0.826035" y_floorplan_percent="73.6731" y="-1.20094" x_floorplan_percent="45.6893" mapid="FloorPlan01"/>
+    <userdata latitude="23.98010711" info="" comment="" nodeid="node25" datetime="2024/10/16 9:58" longitude="121.61291095" description="" author="James Lee" tags="PTGuioutput" heading="151.619" customnodeid="" title="站點 Ｐ" source="" copyright="jp-image.space">
+      <mapcoords x="0.826035" y="-1.20094" y_floorplan_percent="73.6731" mapid="FloorPlan01" x_floorplan_percent="45.6893"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="-1.29" title="站點 J" target="$fwd" id="Point01" distance="25.1796" pan="-226.82" url="{node19}"/>
-      <hotspot skinid="ht_node" description="" tilt="0.46" title="站點Ｎ" target="$fwd" id="Point02" distance="22.4428" pan="-316.56" url="{node23}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 Ｏ" target="$fwd" id="Point03" distance="23.6741" pan="222.959" url="{node24}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-226.82" skinid="ht_node" tilt="-1.29" description="" target="$fwd" title="站點 J" url="{node19}" distance="25.1796"/>
+      <hotspot id="Point02" pan="-316.56" skinid="ht_node" tilt="0.46" description="" target="$fwd" title="站點Ｎ" url="{node23}" distance="22.4428"/>
+      <hotspot id="Point03" pan="222.959" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｏ" url="{node24}" distance="23.6741"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node1">
-    <input levelingroll="0" width="3651" levelingpitch="0" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3651" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3651" height="3651" predecode="0"/>
-      <level preload="0" width="1825" height="1825" predecode="0"/>
-      <level preload="0" width="912" height="912" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3651" levelingroll="0" width="3651" levelbias="0.400">
+      <level height="3651" predecode="0" preload="0" width="3651"/>
+      <level height="1825" predecode="0" preload="0" width="1825"/>
+      <level height="912" predecode="0" preload="0" width="912"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-49.6519">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-49.6519" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98046899" description="" title="站點Ｑ 防空洞" customnodeid="" heading="-49.6519" nodeid="node1" author="James Lee" comment="" longitude="121.61262470" datetime="2024/10/14 11:30" info="" tags="PTGuioutput">
-      <mapcoords x="0.424347" y_floorplan_percent="55.6866" y="-0.907745" x_floorplan_percent="23.4713" mapid="FloorPlan01"/>
+    <userdata latitude="23.98046899" info="" comment="" nodeid="node1" datetime="2024/10/14 11:30" longitude="121.61262470" description="" author="James Lee" tags="PTGuioutput" heading="-49.6519" customnodeid="" title="站點Ｑ 防空洞" source="" copyright="jp-image.space">
+      <mapcoords x="0.424347" y="-0.907745" y_floorplan_percent="55.6866" mapid="FloorPlan01" x_floorplan_percent="23.4713"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 G 家咖哩" target="$fwd" id="Point01" distance="7.14238" pan="-194.086" url="{node16}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-194.086" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 G 家咖哩" url="{node16}" distance="7.14238"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" width="3655" levelingpitch="0" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3655" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3655" height="3655" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3655" levelingroll="0" width="3655" levelbias="0.400">
+      <level height="3655" predecode="0" preload="0" width="3655"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="105.658">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="105.658" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98031147" description="" title="站點 R 貓丁目冰淇淋" customnodeid="" heading="105.658" nodeid="node2" author="James Lee" comment="" longitude="121.61280660" datetime="2024/10/14 11:39" info="" tags="PTGuioutput">
-      <mapcoords x="0.65506" y_floorplan_percent="62.4263" y="-1.01761" x_floorplan_percent="36.2324" mapid="FloorPlan01"/>
+    <userdata latitude="23.98031147" info="" comment="" nodeid="node2" datetime="2024/10/14 11:39" longitude="121.61280660" description="" author="James Lee" tags="PTGuioutput" heading="105.658" customnodeid="" title="站點 R 貓丁目冰淇淋" source="" copyright="jp-image.space">
+      <mapcoords x="0.65506" y="-1.01761" y_floorplan_percent="62.4263" mapid="FloorPlan01" x_floorplan_percent="36.2324"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="-1.53" title="站點 H 炸彈檸檬茶" target="$fwd" id="Point02" distance="9.3865" pan="-227.06" url="{node17}"/>
-      <hotspot skinid="ht_node" description="" tilt="0" title="站點 I 貓丁目冰淇淋" target="$fwd" id="Point01" distance="8.51196" pan="51.1555" url="{node18}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" pan="-227.06" skinid="ht_node" tilt="-1.53" description="" target="$fwd" title="站點 H 炸彈檸檬茶" url="{node17}" distance="9.3865"/>
+      <hotspot id="Point01" pan="51.1555" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 I 貓丁目冰淇淋" url="{node18}" distance="8.51196"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" width="3649" levelingpitch="0" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3649" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3649" height="3649" predecode="0"/>
-      <level preload="0" width="1824" height="1824" predecode="0"/>
-      <level preload="0" width="912" height="912" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3649" levelingroll="0" width="3649" levelbias="0.400">
+      <level height="3649" predecode="0" preload="0" width="3649"/>
+      <level height="1824" predecode="0" preload="0" width="1824"/>
+      <level height="912" predecode="0" preload="0" width="912"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-90.5389">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-90.5389" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.98016231" description="" title="站點 S 山海百貨" customnodeid="" heading="-90.5389" nodeid="node3" author="James Lee" comment="" longitude="121.61323932" datetime="2024/10/14 12:10" info="" tags="PTGuioutput">
-      <mapcoords x="1.1261" y_floorplan_percent="63.7321" y="-1.03889" x_floorplan_percent="62.2864" mapid="FloorPlan01"/>
+    <userdata latitude="23.98016231" info="" comment="" nodeid="node3" datetime="2024/10/14 12:10" longitude="121.61323932" description="" author="James Lee" tags="PTGuioutput" heading="-90.5389" customnodeid="" title="站點 S 山海百貨" source="" copyright="jp-image.space">
+      <mapcoords x="1.1261" y="-1.03889" y_floorplan_percent="63.7321" mapid="FloorPlan01" x_floorplan_percent="62.2864"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="-3.36" title="站點 L" target="$fwd" id="Point01" distance="11.1986" pan="-76.16" url="{node21}"/>
-      <hotspot target="$fwd" id="Point02" skinid="ht_node" pan="-281.89" description="" tilt="-0.67" title="站點 T 山海百貨" url="{node6}"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-76.16" skinid="ht_node" tilt="-3.36" description="" target="$fwd" title="站點 L" url="{node21}" distance="11.1986"/>
+      <hotspot id="Point02" description="" pan="-281.89" target="$fwd" skinid="ht_node" tilt="-0.67" title="站點 T 山海百貨" url="{node6}"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" width="3654" levelingpitch="0" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3654" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3654" height="3654" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3654" levelingroll="0" width="3654" levelbias="0.400">
+      <level height="3654" predecode="0" preload="0" width="3654"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-96.1651">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="-96.1651" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="" description="" title="站點 T 山海百貨" customnodeid="" heading="-96.1651" nodeid="node6" author="James Lee" comment="" longitude="" datetime="2024/10/14 12:24" info="" tags="PTGuioutput"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot target="$fwd" id="Point01" skinid="ht_node" pan="-115.23" description="" tilt="2.69" title="站點 S 山海百貨" url="{node3}"/>
-      <hotspot target="$fwd" id="Point02" skinid="ht_node" pan="-310.85" description="" tilt="1.23" title="站點 Ｕ山海百貨" url="{node4}"/>
-      <hotspot target="$fwd" id="Point03" skinid="ht_node" pan="-243.08" description="" tilt="-1.76" title="站點 V 山海百貨" url="{node5}"/>
+    <userdata latitude="" info="" comment="" nodeid="node6" datetime="2024/10/14 12:24" longitude="" description="" author="James Lee" tags="PTGuioutput" heading="-96.1651" customnodeid="" title="站點 T 山海百貨" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="-115.23" target="$fwd" skinid="ht_node" tilt="2.69" title="站點 S 山海百貨" url="{node3}"/>
+      <hotspot id="Point02" description="" pan="-310.85" target="$fwd" skinid="ht_node" tilt="1.23" title="站點 Ｕ山海百貨" url="{node4}"/>
+      <hotspot id="Point03" description="" pan="-243.08" target="$fwd" skinid="ht_node" tilt="-1.76" title="站點 V 山海百貨" url="{node5}"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" width="3654" levelingpitch="0" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3654" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3654" height="3654" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3654" levelingroll="0" width="3654" levelbias="0.400">
+      <level height="3654" predecode="0" preload="0" width="3654"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="" description="" title="站點 Ｕ山海百貨" customnodeid="" heading="0" nodeid="node4" author="James Lee" comment="" longitude="" datetime="2024/10/14 12:15" info="" tags="PTGuioutput"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot target="$fwd" id="Point01" skinid="ht_node" pan="-337.73" description="" tilt="0.47" title="站點 T 山海百貨" url="{node6}"/>
+    <userdata latitude="" info="" comment="" nodeid="node4" datetime="2024/10/14 12:15" longitude="" description="" author="James Lee" tags="PTGuioutput" heading="0" customnodeid="" title="站點 Ｕ山海百貨" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="-337.73" target="$fwd" skinid="ht_node" tilt="0.47" title="站點 T 山海百貨" url="{node6}"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" width="3654" levelingpitch="0" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3654" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3654" height="3654" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3654" levelingroll="0" width="3654" levelbias="0.400">
+      <level height="3654" predecode="0" preload="0" width="3654"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="" description="" title="站點 V 山海百貨" customnodeid="" heading="0" nodeid="node5" author="James Lee" comment="" longitude="" datetime="2024/10/14 12:19" info="" tags="PTGuioutput"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot target="$fwd" id="Point01" skinid="ht_node" pan="-303.15" description="" tilt="1.01" title="站點 T 山海百貨" url="{node6}"/>
-      <hotspot target="$fwd" id="Point02" skinid="ht_node" pan="-7.66" description="" tilt="0.47" title="站點 W 山海百貨" url="{node7}"/>
+    <userdata latitude="" info="" comment="" nodeid="node5" datetime="2024/10/14 12:19" longitude="" description="" author="James Lee" tags="PTGuioutput" heading="0" customnodeid="" title="站點 V 山海百貨" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="-303.15" target="$fwd" skinid="ht_node" tilt="1.01" title="站點 T 山海百貨" url="{node6}"/>
+      <hotspot id="Point02" description="" pan="-7.66" target="$fwd" skinid="ht_node" tilt="0.47" title="站點 W 山海百貨" url="{node7}"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" width="3654" levelingpitch="0" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3654" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3654" height="3654" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3654" levelingroll="0" width="3654" levelbias="0.400">
+      <level height="3654" predecode="0" preload="0" width="3654"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="" description="" title="站點 W 山海百貨" customnodeid="" heading="0" nodeid="node7" author="James Lee" comment="" longitude="" datetime="2024/10/14 12:27" info="" tags="PTGuioutput"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot target="$fwd" id="Point01" skinid="ht_node" pan="-48.16" description="" tilt="2.44" title="站點 S 山海百貨" url="{node3}"/>
-      <hotspot target="$fwd" id="Point02" skinid="ht_node" pan="-313.52" description="" tilt="-1.47" title="站點 V 山海百貨" url="{node5}"/>
+    <userdata latitude="" info="" comment="" nodeid="node7" datetime="2024/10/14 12:27" longitude="" description="" author="James Lee" tags="PTGuioutput" heading="0" customnodeid="" title="站點 W 山海百貨" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="-48.16" target="$fwd" skinid="ht_node" tilt="2.44" title="站點 S 山海百貨" url="{node3}"/>
+      <hotspot id="Point02" description="" pan="-313.52" target="$fwd" skinid="ht_node" tilt="-1.47" title="站點 V 山海百貨" url="{node5}"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelingroll="0" width="3654" levelingpitch="0" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3654" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510">
-      <level preload="0" width="3654" height="3654" predecode="0"/>
-      <level preload="0" width="1827" height="1827" predecode="0"/>
-      <level preload="0" width="913" height="913" predecode="0"/>
-      <level preload="1" width="456" height="456" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3654" levelingroll="0" width="3654" levelbias="0.400">
+      <level height="3654" predecode="0" preload="0" width="3654"/>
+      <level height="1827" predecode="0" preload="0" width="1827"/>
+      <level height="913" predecode="0" preload="0" width="913"/>
+      <level height="456" predecode="1" preload="1" width="456"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="128.342">
-      <start fov="100" pan="90" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" fov="90" fovfisheye="360" pan="360" tilt="90"/>
+    <view pannorth="128.342" fovmode="2">
+      <start pan="90" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata copyright="jp-image.space" source="" latitude="23.97997510" description="" title="站點 X 小藍肥皂" customnodeid="" heading="128.342" nodeid="node8" author="James Lee" comment="" longitude="121.61312459" datetime="2024/10/14 13:14" info="" tags="PTGuioutput">
-      <mapcoords x="1.07872" y_floorplan_percent="78.1382" y="-1.27373" x_floorplan_percent="59.6658" mapid="FloorPlan01"/>
+    <userdata latitude="23.97997510" info="" comment="" nodeid="node8" datetime="2024/10/14 13:14" longitude="121.61312459" description="" author="James Lee" tags="PTGuioutput" heading="128.342" customnodeid="" title="站點 X 小藍肥皂" source="" copyright="jp-image.space">
+      <mapcoords x="1.07872" y="-1.27373" y_floorplan_percent="78.1382" mapid="FloorPlan01" x_floorplan_percent="59.6658"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textalpha="1" borderradius="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" height="20" bordercolor="0x000000" border="1" background="1" wordwrap="1" borderalpha="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot skinid="ht_node" description="" tilt="-2.37" title="站點Ｎ" target="$fwd" id="Point01" distance="7.88017" pan="-232.74" url="{node23}"/>
-      <hotspot target="_parent" id="Point02" skinid="ht_video_youtube" pan="-122.94" description="" tilt="-15.31" title="精緻手工皂DIY組操作說明" url="kFHktbzuSK8&amp;si=vvfac45WUej7e1c_"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-232.74" skinid="ht_node" tilt="-2.37" description="" target="$fwd" title="站點Ｎ" url="{node23}" distance="7.88017"/>
+      <hotspot id="Point02" description="" pan="-122.94" target="_parent" skinid="ht_video_youtube" tilt="-15.31" title="精緻手工皂DIY組操作說明" url="kFHktbzuSK8&amp;si=vvfac45WUej7e1c_"/>
     </hotspots>
     <media>
-      <sound nodechangekeep="1" loop="0" tiltsize="10.000" mode="0" ambientlevel="0.000" tilt="-1.000" level="0.700" field="90.000" id="_background" startmutedmobile="0" pan="-1.000" pansize="10.000">
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
         <source mono="0" url="media/pieces-of-love-VT.mp3"/>
       </sound>
     </media>
-    <transition zoomoutpause="1" softedge="0" delay="none" blendtime="1" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomfov="40" zoomin="0" zoomout="0" type="crossdissolve" zoomafteroutfov="40" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control hideabout="0" invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1"/>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node26">
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3585" levelingroll="0" width="3585" levelbias="0.400">
+      <level height="3585" predecode="0" preload="0" width="3585"/>
+      <level height="1792" predecode="0" preload="0" width="1792"/>
+      <level height="896" predecode="0" preload="0" width="896"/>
+      <level height="448" predecode="1" preload="1" width="448"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="131.332" fovmode="2">
+      <start pan="-70.47" fov="100" tilt="-1.01" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
+    </view>
+    <userdata latitude="23.98045492" info="" comment="" nodeid="node26" datetime="2024/11/4 11:40" longitude="121.61300773" description="" author="James Lee" tags="SpaceSaver" heading="131.332" customnodeid="" title="站點 Ｑ" source="" copyright="jp-image.space">
+      <mapcoords x="0.800629" y="-0.802002" y_floorplan_percent="49.1997" mapid="FloorPlan01" x_floorplan_percent="44.2841"/>
+    </userdata>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="149.336" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 Ｂ園區導覽地圖" url="{node11}" distance="25.3728"/>
+      <hotspot id="Point02" pan="302.359" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 J" url="{node19}" distance="14.8258"/>
+    </hotspots>
+    <media>
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
+        <source mono="0" url="media/pieces-of-love-VT.mp3"/>
+      </sound>
+    </media>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node28">
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3501" levelingroll="0" width="3501" levelbias="0.400">
+      <level height="3501" predecode="0" preload="0" width="3501"/>
+      <level height="1750" predecode="0" preload="0" width="1750"/>
+      <level height="875" predecode="0" preload="0" width="875"/>
+      <level height="437" predecode="1" preload="1" width="437"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-29.8685" fovmode="2">
+      <start pan="-176.02" fov="100" tilt="-1.17" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
+    </view>
+    <userdata latitude="23.98022118" info="" comment="" nodeid="node28" datetime="2024/11/4 12:57" longitude="121.61311509" description="" author="James Lee" tags="SpaceSaver" heading="-29.8685" customnodeid="" title="喜歡采風" source="" copyright="jp-image.space">
+      <mapcoords x="0.985336" y="-1.01624" y_floorplan_percent="62.342" mapid="FloorPlan01" x_floorplan_percent="54.5006"/>
+    </userdata>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-95.4802" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 L" url="{node21}" distance="9.54097"/>
+      <hotspot id="Point02" pan="-318.3" skinid="ht_node" tilt="0.19" description="" target="$fwd" title="喜歡采風" url="{node29}" distance="3.69417"/>
+      <hotspot id="Point03" pan="-227.52" skinid="ht_node" tilt="-2.96" description="" target="" title="喜歡采風" url="{node27}" distance="4.92755"/>
+      <hotspot id="Point04" pan="-12.7193" skinid="ht_node" tilt="0" description="" target="$fwd" title="站點 K 花凜和服屋 ｜喜歡采風" url="{node20}" distance="8.2005"/>
+    </hotspots>
+    <media>
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
+        <source mono="0" url="media/pieces-of-love-VT.mp3"/>
+      </sound>
+    </media>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node27">
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3503" levelingroll="0" width="3503" levelbias="0.400">
+      <level height="3503" predecode="0" preload="0" width="3503"/>
+      <level height="1751" predecode="0" preload="0" width="1751"/>
+      <level height="875" predecode="0" preload="0" width="875"/>
+      <level height="437" predecode="1" preload="1" width="437"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start pan="-53.87" fov="100" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
+    </view>
+    <userdata latitude="23.98017943" info="" comment="" nodeid="node27" datetime="2024/11/4 12:51" longitude="121.61309883" description="" author="James Lee" tags="SpaceSaver" heading="0" customnodeid="" title="喜歡采風" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-16.8" skinid="ht_node" tilt="0.59" description="" target="" title="喜歡采風" url="{node28}" distance="4.92755"/>
+    </hotspots>
+    <media>
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
+        <source mono="0" url="media/pieces-of-love-VT.mp3"/>
+      </sound>
+    </media>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node29">
+    <input overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="510" height="3504" levelingroll="0" width="3504" levelbias="0.400">
+      <level height="3504" predecode="0" preload="0" width="3504"/>
+      <level height="1752" predecode="0" preload="0" width="1752"/>
+      <level height="876" predecode="0" preload="0" width="876"/>
+      <level height="438" predecode="1" preload="1" width="438"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-133.951" fovmode="2">
+      <start pan="168.7" fov="100" tilt="0.53" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fovstereographic="330" scaletofit="1" fov="120" tilt="90"/>
+    </view>
+    <userdata latitude="23.98023145" info="" comment="" nodeid="node29" datetime="2024/11/4 13:00" longitude="121.61308051" description="" author="James Lee" tags="SpaceSaver" heading="-133.951" customnodeid="" title="喜歡采風" source="" copyright="jp-image.space"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" height="20" borderradius="1" textalpha="1" width="180" enabled="1" bordercolor="0x000000" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" pan="-240.29" skinid="ht_node" tilt="1.04" description="" target="" title="喜歡采風" url="{node28}" distance="3.69417"/>
+    </hotspots>
+    <media>
+      <sound id="_background" nodechangekeep="1" pan="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" tilt="-1.000" ambientlevel="0.000" level="0.700" mode="0" startmutedmobile="0">
+        <source mono="0" url="media/pieces-of-love-VT.mp3"/>
+      </sound>
+    </media>
+    <transition zoomout="0" delay="none" zoomoutpause="1" zoomspeed="2" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" type="crossdissolve" enabled="1" blendcolor="0x000000"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertcontrol="1" rubberband="0" speedwheel="1" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" contextvr="1" zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" author="" comment="" description="" title="將軍府導覽" tags=""/>
+    <userdata description="" author="" tags="" comment="" title="將軍府導覽" copyright=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map mapmaxzoom="18" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" googlecustomstylecode="" title="" index="0" id="Map01" mapstyle="streets" type="web" mapprovider="openstreetmap"/>
-  <map transparent="0" bgcolor="rgba(255, 255, 255, 1)" title="" zoomlevels="5" width="2633" index="1" id="FloorPlan01" type="file" height="2374" tileformat="png" floorplannorth="342" crispedges="0"/>
+  <map googlecustomstylecode="" id="Map01" mapprovider="openstreetmap" index="0" mapmaxzoom="18" type="web" title="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapstyle="streets"/>
+  <map id="FloorPlan01" tileformat="png" bgcolor="rgba(255, 255, 255, 1)" index="1" height="2374" floorplannorth="342" zoomlevels="5" transparent="0" type="file" title="" width="2633" crispedges="0"/>
 </tour>
